@@ -7,8 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'default'
-  vmImage: 'selfhosted-mach'
+  vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
